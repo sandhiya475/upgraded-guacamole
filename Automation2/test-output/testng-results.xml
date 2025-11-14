@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-12T21:48:27 IST" name="Default suite" finished-at="2025-11-12T21:48:56 IST" duration-ms="28763">
+    <groups>
+    </groups>
+    <test started-at="2025-11-12T21:48:27 IST" name="Default test" finished-at="2025-11-12T21:48:56 IST" duration-ms="28763">
+      <class name="mock.SpotifyWithDataProvider">
+        <test-method is-config="true" signature="songsStoreInExcel()[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:27 IST" name="songsStoreInExcel" finished-at="2025-11-12T21:48:28 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- songsStoreInExcel -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:28 IST" name="loginToApp" finished-at="2025-11-12T21:48:41 IST" duration-ms="12754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="toCaptureSongsAndViewers(java.lang.String)[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:41 IST" name="toCaptureSongsAndViewers" data-provider="getData" finished-at="2025-11-12T21:48:42 IST" duration-ms="1517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A.R. Rahman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCaptureSongsAndViewers -->
+        <test-method signature="toCaptureSongsAndViewers(java.lang.String)[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:42 IST" name="toCaptureSongsAndViewers" data-provider="getData" finished-at="2025-11-12T21:48:47 IST" duration-ms="4523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shreya Ghoshal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCaptureSongsAndViewers -->
+        <test-method signature="toCaptureSongsAndViewers(java.lang.String)[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:47 IST" name="toCaptureSongsAndViewers" data-provider="getData" finished-at="2025-11-12T21:48:48 IST" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCaptureSongsAndViewers -->
+        <test-method signature="toCaptureSongsAndViewers(java.lang.String)[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:48 IST" name="toCaptureSongsAndViewers" data-provider="getData" finished-at="2025-11-12T21:48:51 IST" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anirudh Ravichander]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCaptureSongsAndViewers -->
+        <test-method signature="toCaptureSongsAndViewers(java.lang.String)[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:51 IST" name="toCaptureSongsAndViewers" data-provider="getData" finished-at="2025-11-12T21:48:55 IST" duration-ms="3774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Udit Narayan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCaptureSongsAndViewers -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mock.SpotifyWithDataProvider@4f83df68]" started-at="2025-11-12T21:48:55 IST" name="close" finished-at="2025-11-12T21:48:56 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mock.SpotifyWithDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
